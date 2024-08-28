@@ -1,0 +1,30 @@
+
+{
+  "PositiveScenario": {
+    "currentAge": 40,
+    "retirementAge": 68,
+    "currentAnnualIncome": 100000,
+    "spousesAnnualIncome": 75000,
+    "currentRetirementSavings": 500000,
+    "currentRetirementContribution": "10%",
+    "annualRetirementContributionIncrease": ".25%",
+    "socialSecurityIncome": "Yes",
+    "socialSecurityIncome1": "No",
+    "relationshipStatus": "Married",
+    "socialSecurityOverride": 4000
+  },
+
+  "NegativeScenario": {
+    "currentAge": 10,
+    "retirementAge": 10,
+    "currentAnnualIncome": 100,
+    "spousesAnnualIncome": 0,
+    "currentRetirementSavings": 10,
+    "currentRetirementContribution": "8%",
+    "annualRetirementContributionIncrease": "0.1%",
+    "socialSecurityIncome": "No",
+    "relationshipStatus": "Single",
+    "socialSecurityOverride": 3000
+  }
+}
+
